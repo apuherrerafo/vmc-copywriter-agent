@@ -1,0 +1,3 @@
+interface:
+  display_name: "Copy para email"
+  short_description: "Mejora emails existentes de VMC sin generar HTML"

@@ -4,11 +4,11 @@
 
 El snapshot permite aplicar el workflow, knowledge y guardrails en hosts sin acceso al repo. Para conservar feedback, casos de regresión y validadores entre ChatGPT y Claude Code, la siguiente fase añade un backend compartido; no se simula persistencia en este paquete.
 
-`claude-adapter/` y `codex-adapter/` son instaladores Node del mismo core para Claude Code y Codex. Una vez publicados en un repositorio GitHub al que los compañeros tengan acceso, se instalan con:
+El repositorio incluye un instalador único para Claude Code y Codex:
 
 ```bash
-npx github:apuherrerafo/vmc-copywriter-agent#claude-adapter skill
-npx github:apuherrerafo/vmc-copywriter-agent#codex-adapter skill
+npx github:apuherrerafo/vmc-copywriter-agent skill claude
+npx github:apuherrerafo/vmc-copywriter-agent skill codex
 ```
 
 Ambos aceptan `--force` para actualizar una instalación existente.
