@@ -1,0 +1,17 @@
+{
+  "name": "@vmc/copywriter-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Instalador de VMC Copywriter Agent para Claude Code.",
+  "type": "module",
+  "bin": {
+    "vmc-copywriter": "index.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "index.mjs",
+    "templates"
+  ]
+}

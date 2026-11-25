@@ -1,0 +1,3 @@
+interface:
+  display_name: "Integrar feedback"
+  short_description: "Convierte correcciones editoriales en reglas y evals verificables"

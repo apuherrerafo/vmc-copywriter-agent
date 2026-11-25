@@ -1,0 +1,29 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "vmc-copywriter-agent",
+  "version": "0.1.0",
+  "description": "Agente de copy comercial VMC con workflow, guardrails, conocimiento y evals.",
+  "author": {
+    "name": "VMC"
+  },
+  "keywords": [
+    "copywriting",
+    "vmc",
+    "landing",
+    "email",
+    "commercial-copy"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "VMC Copywriter",
+        "shortDescription": "Copy comercial para VMC",
+        "longDescription": "Convierte URL, imagen o copy existente en copy comercial para VMC mediante workflow, guardrails, conocimiento y evaluación estructural.",
+        "developerName": "VMC",
+        "category": "Productivity",
+        "capabilities": [],
+        "defaultPrompt": "Mejora este copy de VMC. Te compartiré una URL, imagen o texto y el contexto de la campaña."
+      }
+    }
+  }
+}

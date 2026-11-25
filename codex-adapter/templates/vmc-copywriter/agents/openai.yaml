@@ -1,0 +1,6 @@
+interface:
+  display_name: "VMC Copywriter"
+  short_description: "Copy comercial para VMC"
+  default_prompt: "Mejora este copy de VMC con el workflow completo."
+policy:
+  allow_implicit_invocation: true
